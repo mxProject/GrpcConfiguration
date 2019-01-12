@@ -4,6 +4,8 @@
 
 gRPC configuration library for .NET Framework and .NET Standard.
 
+[Japanese page](README.jp.md)
+
 ## Features
 
 * Generate the following objects from the the contents described in the XML file.
