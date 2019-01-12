@@ -1,0 +1,22 @@
+﻿
+syntax = "proto3";
+
+option csharp_namespace = "Examples.GrpcConfiguration.Models";
+
+message Member
+{
+    string ID = 1;
+	string Name = 2;
+	int32 Age = 3;
+}
+
+message MemberCondition
+{
+    string ID = 1;
+}
+
+service ExampleService {
+
+	rpc GetMember (MemberCondition) returns (Member){}
+
+}

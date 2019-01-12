@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net46</TargetFrameworks>
+    <RootNamespace>mxProject</RootNamespace>
+    <Description>gRPC configuration library for .NET Framework and .NET Standard.</Description>
+    <Copyright>Copyright 2019 mxProject</Copyright>
+    <PackageLicenseUrl>http://opensource.org/licenses/mit-license.php</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mxProject/GrpcConfiguration</PackageProjectUrl>
+    <PackageTags>gRPC, HTTP2</PackageTags>
+    <Version>0.9.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\programing\Bitbucket\mxProject\dotnetstandard\sources\mxProject.Helpers.GrpcConfiguration\bin\mxProject.Helpers.GrpcConfiguration.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DocumentationFile>E:\programing\Bitbucket\mxProject\dotnetstandard\sources\mxProject.Helpers.GrpcConfiguration\bin\mxProject.Helpers.GrpcConfiguration.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.Core" Version="1.16.0" />
+  </ItemGroup>
+
+</Project>
